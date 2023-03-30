@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(6, 95, 136);
+   
+}
+
+h1, h2, h3 {
+    padding: 20px;
+    background: linear-gradient(
+        to right,      
+        #fdae1b,
+        #f106ca,
+        #fd01b2
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+pre {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    background: whitesmoke;
+    padding: 20px;
+}
